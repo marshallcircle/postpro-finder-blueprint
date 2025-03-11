@@ -6,6 +6,42 @@ This repository serves as a blueprint and guidance for implementing PostPro Find
 
 PostPro Finder is a Flask-based web application that helps post-production professionals find job opportunities, track applications, and generate cover letters. It leverages multiple search APIs to find relevant job listings and includes features for cost tracking and skill matching.
 
+## Getting Started
+
+To implement this application using Cursor Agent, follow this sequence:
+
+1. **Phase 1: Project Setup and Core Infrastructure**
+   - Set up project structure
+   - Implement database models
+   - Create core utilities
+
+2. **Phase 2: Search Functionality**
+   - Implement search services for multiple APIs
+   - Create unified search interface
+   - Add API cost tracking
+
+3. **Phase 3: Core User Interface**
+   - Build base templates and styling
+   - Create job search and detail pages
+   - Implement application tracking
+
+4. **Phase 4: Cover Letter Generation**
+   - Integrate with Claude API
+   - Build cover letter templates
+   - Create editor interface
+
+5. **Phase 5: Cost Tracking**
+   - Implement cost calculator
+   - Create usage tracking
+   - Build cost dashboard
+
+6. **Phase 6: Settings and Final Integration**
+   - Build settings interface
+   - Complete testing
+   - Finalize documentation
+
+For detailed instructions on each phase, see [docs/IMPLEMENTATION.md](docs/IMPLEMENTATION.md).
+
 ## Repository Purpose
 
 This repository contains the structure and documentation needed for implementing the application using Cursor Agent. It includes:
@@ -23,14 +59,6 @@ This repository contains the structure and documentation needed for implementing
 - Application status tracking
 - Optional cover letter generation for selected jobs
 - API usage cost tracking and estimation
-
-## Getting Started
-
-To implement this application using Cursor Agent:
-
-1. Review the directory structure in `docs/STRUCTURE.md`
-2. Follow the implementation steps in `docs/IMPLEMENTATION.md`
-3. Adhere to the development rules in `.cursor/rules.md`
 
 ## Directory Structure
 
@@ -50,4 +78,13 @@ postpro-finder/
 └── docs/             # Documentation
 ```
 
-For detailed instructions, see the documentation in the docs/ directory.
+For detailed information, see the documentation in the `docs/` directory.
+
+## Implementation Resources
+
+- [Project Structure Guide](docs/STRUCTURE.md)
+- [Implementation Guide](docs/IMPLEMENTATION.md)
+- [API Integration Guide](docs/APIS.md)
+- [Cost Tracking Guide](docs/COSTS.md)
+- [Database Schema](migrations/schema.sql)
+- [Development Rules](.cursor/rules.md)
