@@ -17,7 +17,6 @@
 - SEQUENTIAL THINKING MCP: Use for designing algorithms, planning implementation steps, and solving complex problems
 - GITHUB MCP: Use for file management, repository structure, and code organization
 - BROWSER TOOLS MCP: Use for testing web interfaces and API requests
-- REPL MCP: Use for testing code snippets and debugging functionality
 - FILE MANAGEMENT FUNCTIONS: Use for creating and editing code files efficiently
 
 ## Architectural Rules
@@ -66,6 +65,9 @@
   * Planning API integration approaches
   * Developing cost calculation formulas
   * Solving complex data processing challenges
+  * Planning query structures for database operations
+  * Debugging logical issues in the code
+  * Analyzing API response patterns
 
 - Use GITHUB MCP for:
   * Creating and organizing project files
@@ -76,8 +78,5 @@
   * Testing Flask routes and UI rendering
   * Verifying API requests and responses
   * Debugging web interface interactions
-
-- Use REPL MCP for:
-  * Testing database queries
-  * Debugging algorithm logic
-  * Verifying API parsing functionality
+  * Testing form submissions
+  * Validating search functionality
