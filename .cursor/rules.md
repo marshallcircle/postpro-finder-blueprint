@@ -13,6 +13,13 @@
 4. COVER LETTER GENERATION: Create letters for jobs marked for application ONLY
 5. API COST TRACKING: Monitor usage costs and provide estimates
 
+## MCP Usage Guidelines
+- SEQUENTIAL THINKING MCP: Use for designing algorithms, planning implementation steps, and solving complex problems
+- GITHUB MCP: Use for file management, repository structure, and code organization
+- BROWSER TOOLS MCP: Use for testing web interfaces and API requests
+- REPL MCP: Use for testing code snippets and debugging functionality
+- FILE MANAGEMENT FUNCTIONS: Use for creating and editing code files efficiently
+
 ## Architectural Rules
 - MODULAR DESIGN: Separate routes, models, and services
 - DATABASE: SQLite with proper schema design
@@ -52,3 +59,25 @@
 - TEST EACH COMPONENT: Verify functionality before proceeding
 - MOCK APIS: Use mock data when testing without API keys
 - ERROR SIMULATION: Test error handling paths
+
+## MCP-Specific Tasks
+- Use SEQUENTIAL THINKING MCP for:
+  * Designing the skill matching algorithm
+  * Planning API integration approaches
+  * Developing cost calculation formulas
+  * Solving complex data processing challenges
+
+- Use GITHUB MCP for:
+  * Creating and organizing project files
+  * Maintaining proper directory structure
+  * Managing code versions and changes
+
+- Use BROWSER TOOLS MCP for:
+  * Testing Flask routes and UI rendering
+  * Verifying API requests and responses
+  * Debugging web interface interactions
+
+- Use REPL MCP for:
+  * Testing database queries
+  * Debugging algorithm logic
+  * Verifying API parsing functionality
